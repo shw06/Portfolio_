@@ -68,6 +68,7 @@ img.bio-img {
 
 .bio-edu p {
     font-weight: 600;
+    line-height: 1.5;
 }
 
 a.btn {
@@ -215,12 +216,18 @@ input, textarea {
 
 input[type="submit"] {
     width: 150px;
-    padding: 10px 10px 20px 10px;
+    padding: 10px 10px 30px 10px;
     margin-left: 300px;
     text-align: center;
-    background-color: #fff;
+    background-color: #000;
+    color: #fff;
 }
 
+input[type="submit"]:hover {
+    color: #000;
+    background-color: #fff;
+    transform: 3s;
+}
 
 
 
@@ -264,10 +271,4 @@ input[type="submit"] {
 .media-link a {
     color: #fff;
     text-decoration: none;
-}
-
-
-
-@media only screen and (max-width: 769px) {
-    width: 100%;
 }
