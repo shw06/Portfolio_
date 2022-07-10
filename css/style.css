@@ -272,3 +272,9 @@ input[type="submit"]:hover {
     color: #fff;
     text-decoration: none;
 }
+
+
+
+html {
+    box-sizing: border-box;
+}
