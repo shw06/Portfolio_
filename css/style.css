@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(-90deg, #e8987f, #ffc6dc,#f699bc,#91cce1, #93f6df);
+    background: linear-gradient(-90deg, #e8987f, #ffc6dc,#91cce1, #93f6df);
 	background-size: 400% 400%;
 	animation: gradient 5s ease infinite;
 }
